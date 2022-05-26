@@ -36,7 +36,7 @@ class AppState extends EventEmitter {
       floors: 1,
       color: "red",
       description: "it house",
-      imgUrl: "https://thisanimedoesnotexist.com",
+      imgUrl: "https://pbs.twimg.com/media/FTnF6ywXoAAzqVI?format=jpg&name=small",
       price: 150,
     }),
   ];

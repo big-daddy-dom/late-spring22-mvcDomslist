@@ -11,7 +11,7 @@ function _drawHouses() {
     console.log();
   });
 
-  document.getElementById("listings").innerHTML = " The Houses go here";
+  document.getElementById("listings").innerHTML = template;
 }
 
 export class HousesController {
