@@ -26,7 +26,7 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-dark navbar-expand bg-dark text-light no-select d-flex justify-content-between"
+        class="navbar navbar-dark navbar-expand bg-dark text-light no-select d-flex justify-content-evenly"
       >
         <a class="navbar-brand ms-3" href="#">
           <img
@@ -41,7 +41,7 @@
         <b class="selectable" onclick="app.housesController.viewHouses()"
           >Houses</b
         >
-        <b>Jobs</b>
+        <b class="selectable" onclick="app.jobsController.viewJobs()">Jobs</b>
       </nav>
     </header>
     <main>
