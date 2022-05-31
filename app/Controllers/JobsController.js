@@ -27,14 +27,21 @@ export class JobsController {
     window.event.preventDefault();
     let form = window.event.target;
     let jobData = {
+      // @ts-ignore
       title: form.title.value,
+      // @ts-ignore
       pay: form.pay.value,
+      // @ts-ignore
       description: form.description.value,
+      // @ts-ignore
       company: form.company.value,
+      // @ts-ignore
       imgUrl: form.imgUrl.value,
     };
     jobsService.createJob(jobData);
+    // @ts-ignore
     form.reset();
+    // @ts-ignore
     bootstrap.Modal.getOrCreateInstance(
       document.getElementById("form-modal")
     ).hide();
